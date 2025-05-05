@@ -1,0 +1,28 @@
+{
+    "schemaVersion": 1,
+    "id": "tpsoverlay",
+    "version": "1.0.0",
+    "name": "TPS Overlay",
+    "description": "Displays server TPS on the HUD.",
+    "authors": ["YourName"],
+    "contact": {
+      "homepage": "https://yourwebsite.com",
+      "sources": "https://github.com/yourusername/tpsoverlay"
+    },
+    "license": "MIT",
+    "environment": "*",
+    "entrypoints": {
+      "client": [
+        "tps.TpsOverlay"
+      ]
+    },
+    "mixins": [
+      "tps.mixins.json"
+    ],
+    "depends": {
+      "fabricloader": ">=0.14.0",
+      "fabric": "*",
+      "minecraft": "1.21.5"
+    }
+  }
+  
